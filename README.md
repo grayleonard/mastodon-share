@@ -21,7 +21,8 @@ Small:
 To embed with external network calls (hosted on jsdelivr):
 
 Large:
-```<div class="mast-share mast-share-lg"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <span>Share on</span> <img src="logotype-full.svg"> </label> </div> <script src="mast-share.min.js"></script> <link rel="stylesheet" href="mast-share.min.css">
+```
+<div class="mast-share mast-share-lg"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <span>Share on</span> <img src="logotype-full.svg"> </label> </div> <script src="mast-share.min.js"></script> <link rel="stylesheet" href="mast-share.min.css">
 ```
 
 Medium:
