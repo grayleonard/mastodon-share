@@ -1,3 +1,16 @@
+Mastodon Share Buttons
+===
+
+Share buttons for Mastodon that work on static pages. The page title and URL are pulled from `document.title` and `location.href`, copying the behavior of www.addtoany.com. I've included two options: one for embedding all additional JS/CSS (for security reasons), and another for linking to the JS/CSS hosted here via https://rawgit.com.
+
+Contributions are welcome!
+
+![](screenshot.png)
+
+Demo: https://grayleonard/mastodon-share/demo.html
+
+
+
 Instructions
 ===
 
@@ -22,16 +35,16 @@ To embed with external network calls (hosted on jsdelivr):
 
 Large:
 ```
-<div class="mast-share mast-share-lg"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <span>Share on</span> <img src="logotype-full.svg"> </label> </div> <script src="mast-share.min.js"></script> <link rel="stylesheet" href="mast-share.min.css">
+<div class="mast-share mast-share-lg"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <span>Share on</span> <img src="logotype-full.svg"> </label> </div> <script src="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.js"></script> <link rel="stylesheet" href="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.css">
 ```
 
 Medium:
 ```
-<div class="mast-share mast-share-md"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="logotype-full.svg"> </label> </div> <script src="mast-share.min.js"></script> <link rel="stylesheet" href="mast-share.min.css">
+<div class="mast-share mast-share-md"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="logotype-full.svg"> </label> </div> <script src="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.js"></script> <link rel="stylesheet" href="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.css">
 ```
 
 
 Small:
 ```
-<div class="mast-share mast-share-sm"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="logotype-short.svg"> </label> </div> <script src="mast-share.min.js"></script> <link rel="stylesheet" href="mast-share.min.css">
+<div class="mast-share mast-share-sm"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="logotype-short.svg"> </label> </div> <script src="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.js"></script> <link rel="stylesheet" href="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.css">
 ```
