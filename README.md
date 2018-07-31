@@ -7,7 +7,7 @@ Contributions are welcome!
 
 ![](screenshot.png)
 
-Demo: https://grayleonard.com/mastodon-share/demo.html
+Demo: http://grayleonard.com/mastodon-share/demo.html
 
 Instructions
 ===
