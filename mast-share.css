@@ -23,11 +23,12 @@
 .mast-share-lg .mast-top {
 	cursor: pointer;
 	position: absolute;
-	width: 142px;
+	width: 154px;
 	top: 0;
 	left: 0;
 	padding: 4px 8px;
 	z-index: 1;
+	text-align: center;
 }
 
 .mast-share-sm .mast-top, .mast-share-md .mast-top {
@@ -51,7 +52,7 @@
 }
 
 .mast-share-lg {
-	width: 157px;
+	width: 170px;
 }
 
 .mast-share-md {
@@ -151,4 +152,3 @@
 .mast-share button:hover {
 	color: #3087d5;
 }
-
