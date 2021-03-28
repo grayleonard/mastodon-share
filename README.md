@@ -33,18 +33,18 @@ To embed with external resources (hosted on rawgit):
 
 Large:
 ```
-<div class="mast-share mast-share-lg"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <span>Share on</span> <img src="logotype-full.svg"> </label> </div> <script src="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.js"></script> <link rel="stylesheet" href="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.css">
+<div class="mast-share mast-share-lg"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <span>Share on</span> <img src="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/logotype-full.svg"> </label> </div> <script src="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/mast-share.min.js"></script> <link rel="stylesheet" href="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/mast-share.min.css">
 ```
 
 Medium:
 ```
-<div class="mast-share mast-share-md"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="logotype-full.svg"> </label> </div> <script src="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.js"></script> <link rel="stylesheet" href="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.css">
+<div class="mast-share mast-share-md"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/logotype-full.svg"> </label> </div> <script src="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/mast-share.min.js"></script> <link rel="stylesheet" href="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/mast-share.min.css">
 ```
 
 
 Small:
 ```
-<div class="mast-share mast-share-sm"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="logotype-short.svg"> </label> </div> <script src="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.js"></script> <link rel="stylesheet" href="https://cdn.rawgit.com/grayleonard/mastodon-share/35d4e3ab/mast-share.min.css">
+<div class="mast-share mast-share-sm"> <input type="checkbox" class="mast-check-toggle"> <div class="mast-instance"><span>Instance: </span><input type="textbox" name="mast-instance-input" placeholder="mastodon.social"><button class="mast-share-button">Share</button></div> <label class="mast-top mast-check-label"> <img src="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/logotype-full.svg"> </label> </div> <script src="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/mast-share.min.js"></script> <link rel="stylesheet" href="https://raw.githubusercontent.com/grayleonard/mastodon-share/master/mast-share.min.css">
 ```
 
 License
